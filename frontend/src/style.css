@@ -1,0 +1,146 @@
+:root {
+  --gold: #b8960c;
+  --gold-light: #d4af37;
+  --dark: #1a1a1a;
+}
+
+body {
+  background: #f8f7f4;
+  color: #333;
+  font-family: 'Georgia', serif;
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+.navbar {
+  background: var(--dark) !important;
+}
+
+.navbar .nav-link {
+  color: #ccc !important;
+  font-size: 0.85rem;
+  letter-spacing: 1px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active-link {
+  color: var(--gold-light) !important;
+}
+
+.badge-gold {
+  background: var(--gold);
+  color: #fff;
+  font-size: 0.7rem;
+}
+
+.card {
+  border: none;
+  border-radius: 0;
+  background: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: contain;
+  padding: 1rem;
+  background: #fafafa;
+}
+
+.btn-dark {
+  background: var(--dark);
+  border: none;
+  border-radius: 0;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.btn-dark:hover {
+  background: #333;
+}
+
+.btn-outline-dark {
+  border-radius: 0;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.section-title {
+  font-size: 0.75rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #888;
+  margin-bottom: 0.25rem;
+}
+
+.price-tag {
+  color: var(--gold);
+  font-weight: bold;
+  font-size: 1.05rem;
+}
+
+.badge-limited {
+  background: #8b0000;
+  font-size: 0.65rem;
+}
+
+footer {
+  background: var(--dark);
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.alert {
+  border-radius: 0;
+}
+
+.pagination .page-link {
+  color: var(--gold);
+  border-radius: 0 !important;
+}
+
+.page-item.active .page-link {
+  background: var(--dark);
+  border-color: var(--dark);
+}
+
+.category-card {
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.category-card:hover {
+  border-bottom-color: var(--gold);
+}
+
+.img-placeholder {
+  height: 220px;
+  background: #f0ece4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 2rem;
+}
+
+.form-control,
+.form-select {
+  border-radius: 0 !important;
+}
+
+.modal-content {
+  border-radius: 0 !important;
+}
+
+.spinner-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}

@@ -1,0 +1,78 @@
+/* RESET */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    background-color: #2fa4c7;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-right: 1px solid #ffffff33;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #2389a6;
+}
+
+/* CONTENIDO */
+.container {
+    padding: 30px;
+}
+
+/* TITULOS */
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* LISTA DE LIBROS */
+.card {
+    background: white;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* BOTONES */
+.btn {
+    display: inline-block;
+    padding: 8px 14px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* BOTÓN PRINCIPAL */
+.btn-primary {
+    background-color: #2fa4c7;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #2389a6;
+}
+
+/* BOTÓN EDITAR */
+.btn-edit {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #5a6268;
+}
